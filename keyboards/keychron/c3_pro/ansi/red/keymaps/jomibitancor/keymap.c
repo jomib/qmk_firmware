@@ -29,7 +29,7 @@ enum layers{
 const key_override_t left_arrow_override = ko_make_basic(MOD_MASK_CSAG, KC_H, KC_LEFT);
 const key_override_t down_arrow_override = ko_make_basic(MOD_MASK_CSAG, KC_J, KC_DOWN);
 const key_override_t up_arrow_override = ko_make_basic(MOD_MASK_CSAG, KC_K, KC_UP);
-const key_override_t right_arrow_override = ko_make_basic(MOD_MASK_CSAG, KC_H, KC_RIGHT);
+const key_override_t right_arrow_override = ko_make_basic(MOD_MASK_CSAG, KC_L, KC_RIGHT);
 
 const key_override_t **key_overrides = (const key_override_t *[]){
     &left_arrow_override,
