@@ -1,3 +1,15 @@
+# qmk_firmware
+
+1.) Edit `keyboards/keychron/c3_pro/ansi/red/keymaps/jomibitancor/keymap.c` to desired behaviour
+
+2.) Build firmware with `make keychron/c3_pro/ansi/red:jomibitancor`
+
+3.) Flash firmware with `make keychron/c3_pro/ansi/red:jomibitancor:flash`
+
+4.) Unplug keyboard and boot into bootloader. For the Keychron C3, hold `Escape` while it's powered off and then plug it in while still holding the button. If this doesn't work, use the reset button underneath the space bar
+
+___
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
