@@ -1,5 +1,10 @@
 # qmk_firmware
 
+In Fedora, run this command to make sure you have the `dfu-programmer` programmer installed
+```
+sudo dnf copr enable erovia/dfu-programmer
+```
+
 1.) Edit `keyboards/keychron/c3_pro/ansi/red/keymaps/jomibitancor/keymap.c` to desired behaviour
 
 2.) Build firmware with `make keychron/c3_pro/ansi/red:jomibitancor`
